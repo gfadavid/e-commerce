@@ -1,0 +1,27 @@
+{
+  "name": "fravega",
+  "version": "1.0.0",
+  "description": "Maquetación de vistas principales de la página fravega (Home, CAtegorías y Productos).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfadavid/e-commerce.git"
+  },
+  "author": "@gfadavid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfadavid/e-commerce/issues"
+  },
+  "homepage": "https://github.com/gfadavid/e-commerce#readme",
+  "devDependencies": {
+    "bootstrap": "^5.1.0",
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "gulp-terser": "^2.0.1",
+    "sass": "^1.38.0"
+  }
+}
