@@ -1,11 +1,23 @@
 .header {
   background-color: tomato;
+  margin-top: 15px;
 }
 .header__top {
   background-color: lightblue;
 }
 .header__main {
   background-color: lightseagreen;
+}
+.header__main__logo {
+  background-color: lightgreen;
+}
+.header__main__logo .bi-list::before {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.header__main__logo__img {
+  width: 40px;
+  margin-left: 20px;
 }
 .header__footer {
   background-color: lime;
