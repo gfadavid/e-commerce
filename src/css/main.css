@@ -1,6 +1,28 @@
+:root {
+  --font-family: "Work Sans", sans-serif;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+  --fsz-1: 14px;
+  --black: #000000;
+  --size-icons: 1.5rem;
+  --gray-1: #4a4a4a;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--fsz-1);
+}
+
 .header {
   background-color: tomato;
   margin-top: 15px;
+}
+.header [class*=bi-]::before {
+  font-size: var(--size-icons);
+  color: var(--gray-1);
 }
 .header__top {
   background-color: lightblue;
@@ -11,14 +33,21 @@
 .header__main__logo {
   background-color: lightgreen;
 }
-.header__main__logo .bi-list::before {
-  font-size: 2rem;
-  font-weight: bold;
-}
 .header__main__logo__img {
   width: 40px;
   margin-left: 20px;
 }
+.header__main__cart {
+  background-color: magenta;
+}
 .header__footer {
   background-color: lime;
+}
+
+.my-account {
+  background-color: green;
+  margin-right: 20px;
+}
+.my-account .bi-person-circle {
+  margin-right: 10px;
 }

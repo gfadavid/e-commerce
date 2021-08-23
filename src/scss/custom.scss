@@ -7,3 +7,8 @@ $primary: hotpink;
 body {
     background-color: $primary;
 }
+
+a {
+    color: var(--gray-1);
+    text-decoration: none;
+}

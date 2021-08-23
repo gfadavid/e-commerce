@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="css/bootstrap-icons.css">
     <!-- STYLES -->
     <link rel="stylesheet" href="css/main.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -24,9 +28,9 @@
 
       <section class="col-12 container header__main">
 
-          <div class="row align-items-center">
+          <div class="row align-items-center justify-content-between">
 
-            <div class="col-6 col-md-4 d-flex align-items-center header__main__logo">
+            <div class="col-auto d-flex align-items-center header__main__logo">
 
               <!-- INICIO TOGGLE MENÚ -->
               <span type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
@@ -52,7 +56,21 @@
 
             <div class="col-12 order-2 order-md-1 col-md-4">Item #2</div>
 
-            <div class="col-6 order-1 col-md-4">Item #3</div>
+            <div class="col-auto order-1 d-flex header__main__cart">
+
+              <a href="#" class="d-flex align-items-center my-account">
+
+                <i class="bi-person-circle"></i>
+                Mi cuenta
+
+              </a>
+
+              <a href="#">
+                <i class="bi-cart3"></i>
+              </a>
+
+            </div>
+
           </div>
 
           <nav class="col-12 header__footer">

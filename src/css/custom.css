@@ -12478,3 +12478,8 @@ textarea.form-control-lg {
 body {
   background-color: hotpink;
 }
+
+a {
+  color: var(--gray-1);
+  text-decoration: none;
+}

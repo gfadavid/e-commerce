@@ -1,24 +1,5 @@
-.header {
-    background-color: tomato;
-    margin-top: 15px;
-    &__top {
-        background-color: lightblue;
-    }
-    &__main {
-        background-color: lightseagreen;
-        &__logo {
-            background-color: lightgreen;
-             .bi-list::before {
-                 font-size: 2rem;
-                 font-weight: bold;
-             }
-             &__img {
-                 width: 40px;
-                 margin-left: 20px;
-             }
-        }
-    }
-    &__footer {
-        background-color: lime;
-    }
-}
+@import "variables";
+
+@import "base/base";
+
+@import "layout/header";

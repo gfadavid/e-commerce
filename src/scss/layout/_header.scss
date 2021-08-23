@@ -1,0 +1,35 @@
+.header {
+  background-color: tomato;
+  margin-top: 15px;
+  [class*="bi-"]::before {
+      font-size: var(--size-icons);
+      color: var(--gray-1);
+  }
+  &__top {
+      background-color: lightblue;
+  }
+  &__main {
+      background-color: lightseagreen;
+      &__logo {
+          background-color: lightgreen;
+           &__img {
+               width: 40px;
+               margin-left: 20px;
+           }
+      }
+      &__cart {
+          background-color: magenta;
+      }
+  }
+  &__footer {
+      background-color: lime;
+  }
+}
+
+.my-account {
+  background-color: green;
+  margin-right: 20px;
+  .bi-person-circle {
+    margin-right: 10px;
+  }
+}
