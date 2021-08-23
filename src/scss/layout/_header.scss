@@ -1,6 +1,7 @@
 .header {
   background-color: tomato;
-  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   [class*="bi-"]::before {
       font-size: var(--size-icons-1);
       color: var(--gray-1);
@@ -51,6 +52,19 @@
     .bi-search::before {
       color: var(--white);
       font-size: var(--size-icons-2);
+    }
+  }
+}
+
+.geo {
+  &__icon {
+    margin-right: 1px;
+  }
+  &__text {
+    font-size: var(--fsz-3);
+    margin-top: -5px;
+    &__city {
+      color: var(--color-2);
     }
   }
 }

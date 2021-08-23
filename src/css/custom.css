@@ -12497,3 +12497,7 @@ input {
 input:focus-visible {
   outline: none;
 }
+
+p:last-child {
+  margin-bottom: 0;
+}

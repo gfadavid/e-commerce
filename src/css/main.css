@@ -7,7 +7,9 @@
   --bold: 700;
   --fsz-1: 14px;
   --fsz-2: 15px;
+  --fsz-3: 13px;
   --color-1: #654bb9;
+  --color-2: #006afd;
   --white: #ffffff;
   --black: #000000;
   --size-icons-1: 1.5rem;
@@ -24,7 +26,8 @@ body {
 
 .header {
   background-color: tomato;
-  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .header [class*=bi-]::before {
   font-size: var(--size-icons-1);
@@ -77,4 +80,15 @@ body {
 .search__button .bi-search::before {
   color: var(--white);
   font-size: var(--size-icons-2);
+}
+
+.geo__icon {
+  margin-right: 1px;
+}
+.geo__text {
+  font-size: var(--fsz-3);
+  margin-top: -5px;
+}
+.geo__text__city {
+  color: var(--color-2);
 }
