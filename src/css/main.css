@@ -6,9 +6,15 @@
   --semi-bold: 600;
   --bold: 700;
   --fsz-1: 14px;
+  --fsz-2: 15px;
+  --color-1: #654bb9;
+  --white: #ffffff;
   --black: #000000;
-  --size-icons: 1.5rem;
+  --size-icons-1: 1.5rem;
+  --size-icons-2: 18px;
   --gray-1: #4a4a4a;
+  --h-input: 38px;
+  --border-radius-1: 4px;
 }
 
 body {
@@ -21,7 +27,7 @@ body {
   margin-top: 15px;
 }
 .header [class*=bi-]::before {
-  font-size: var(--size-icons);
+  font-size: var(--size-icons-1);
   color: var(--gray-1);
 }
 .header__top {
@@ -50,4 +56,25 @@ body {
 }
 .my-account .bi-person-circle {
   margin-right: 10px;
+}
+
+.search {
+  background-color: orangered;
+  border-radius: var(--border-radius-1);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--color-1);
+}
+.search__input {
+  border-radius: var(--border-radius-1);
+  border: 1px solid var(--color-1);
+}
+.search__button {
+  background-color: var(--color-1);
+  color: var(--white);
+  width: 50px;
+}
+.search__button .bi-search::before {
+  color: var(--white);
+  font-size: var(--size-icons-2);
 }

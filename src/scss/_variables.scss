@@ -1,15 +1,23 @@
 :root {
-  --font-family   : 'Work Sans', sans-serif;
-  --light         : 300;
-  --regular       : 400;
-  --medium        : 500;
-  --semi-bold     : 600;
-  --bold          : 700;
-  --fsz-1         : 14px;
+  --font-family         : 'Work Sans', sans-serif;
+  --light               : 300;
+  --regular             : 400;
+  --medium              : 500;
+  --semi-bold           : 600;
+  --bold                : 700;
+  --fsz-1               : 14px;
+  --fsz-2               : 15px;
 
-  --black         : #000000;
+  --color-1             : #654bb9;
 
-  --size-icons    : 1.5rem;
+  --white               : #ffffff;
+  --black               : #000000;
 
-  --gray-1        : #4a4a4a;
+  --size-icons-1         : 1.5rem;
+  --size-icons-2         : 18px;
+
+  --gray-1              : #4a4a4a;
+
+  --h-input             : 38px;
+  --border-radius-1     : 4px;
 }

@@ -12476,10 +12476,24 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-color: hotpink;
+  background-color: var(--color-1);
 }
 
 a {
   color: var(--gray-1);
   text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+input {
+  padding: 12px;
+  letter-spacing: -0.5px;
+  font-size: var(--fsz-2);
+  height: var(--h-input);
+}
+input:focus-visible {
+  outline: none;
 }

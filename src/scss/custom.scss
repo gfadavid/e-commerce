@@ -2,7 +2,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // OVERRIDES
-$primary: hotpink;
+$primary: var(--color-1);
 
 body {
     background-color: $primary;
@@ -11,4 +11,18 @@ body {
 a {
     color: var(--gray-1);
     text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+input {
+    padding: 12px;
+    letter-spacing: -.5px;
+    font-size: var(--fsz-2);
+    height: var(--h-input);
+    &:focus-visible {
+        outline: none;
+    }
 }
