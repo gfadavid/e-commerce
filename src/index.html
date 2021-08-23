@@ -14,19 +14,48 @@
     
     <header class="header">
 
-        <section class="header__top">
+      <section class="col-12 d-none d-md-block header__top">
+        <article class="container">
             CRÉDITOS
-        </section>
+        </article>
+      </section>
 
-        <section class="header__main">
-            SECCIÓN PRINCIPAL DEL HEADER
-        </section>
+      <section class="col-12 container header__main">
 
-        <section class="header__footer">
-            MENÚ
-        </section>
+          <div class="row">
+
+            <div class="col-6 col-md-4">
+
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                Button with data-bs-target
+              </button>
+              <!-- INICIO OFF CANVAS -->
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Título</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  Cuerpo test
+                </div>
+              </div>
+              <!-- FIN OFF CANVAS -->
+
+            </div>
+
+            <div class="col-12 order-2 order-md-1 col-md-4">Item #2</div>
+
+            <div class="col-6 order-1 col-md-4">Item #3</div>
+          </div>
+
+          <nav class="col-12 header__footer">
+              MENÚ
+          </nav>
+
+      </section>
 
     </header>
 
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

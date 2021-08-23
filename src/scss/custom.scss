@@ -1,5 +1,9 @@
 // IMPORTANDO BOOTSTRAP
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 // OVERRIDES
 $primary: hotpink;
+
+body {
+    background-color: $primary;
+}
