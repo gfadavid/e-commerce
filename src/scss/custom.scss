@@ -34,3 +34,22 @@ p {
         margin-bottom: 0;
     }
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: var(--w-slider-control);
+    height: var(--w-slider-control);
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+    [data-bs-target] {
+        width: var(--w-slider-indicator);
+        height: var(--w-slider-indicator);
+        background-color: var(--gray-3);
+        border-radius: 50%;
+        &.active {
+            background-color: var(--gray-4);
+        }
+    }
+}

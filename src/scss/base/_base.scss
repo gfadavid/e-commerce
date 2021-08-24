@@ -1,4 +1,12 @@
 body {
   font-family: var(--font-family);
   font-size: var(--fsz-1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  background-color: lightblue;
+  flex-grow: 1;
 }

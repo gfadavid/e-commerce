@@ -11,6 +11,9 @@
   --fsz-4: 16px;
   --h-header: 36px;
   --h-header-menu: 50px;
+  --w-slider-control: 4rem;
+  --w-slider-indicator: 6px;
+  --h-slider-image: 300px;
   --color-1: #654bb9;
   --color-2: #006afd;
   --color-3: #f1f1f1;
@@ -21,6 +24,8 @@
   --size-icons-2: 18px;
   --gray-1: #4a4a4a;
   --gray-2: #dadada;
+  --gray-3: #c9c7c7;
+  --gray-4: #807f80;
   --h-input-1: 38px;
   --h-input-2: 44px;
   --border-radius-1: 4px;
@@ -29,6 +34,21 @@
 body {
   font-family: var(--font-family);
   font-size: var(--fsz-1);
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  background-color: lightblue;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .header {
@@ -84,6 +104,7 @@ body {
 @media screen and (min-width: 768px) {
   .header {
     padding-top: 0;
+    padding-bottom: 0;
   }
   .header__top {
     background-color: var(--color-3);
@@ -122,5 +143,9 @@ body {
   .search__input {
     font-size: var(--fsz-4);
     height: var(--h-input-2);
+  }
+
+  .slider__image {
+    height: var(--h-slider-image);
   }
 }
