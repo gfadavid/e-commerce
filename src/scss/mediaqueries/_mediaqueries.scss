@@ -29,7 +29,17 @@
         }
     }
     &__footer {
-        background-color: lime;
+        height: var(--h-header-menu);
+        line-height: var(--h-header-menu);
+        border-top: 1px solid var(--gray-2);
+        border-bottom: 1px solid var(--gray-2);
+    }
+  }
+
+  .search {
+    &__input {
+      font-size: var(--fsz-4);
+      height: var(--h-input-2);
     }
   }
 

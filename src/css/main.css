@@ -8,7 +8,9 @@
   --fsz-1: 14px;
   --fsz-2: 15px;
   --fsz-3: 13px;
+  --fsz-4: 16px;
   --h-header: 36px;
+  --h-header-menu: 50px;
   --color-1: #654bb9;
   --color-2: #006afd;
   --color-3: #f1f1f1;
@@ -18,7 +20,9 @@
   --size-icons-1: 1.5rem;
   --size-icons-2: 18px;
   --gray-1: #4a4a4a;
-  --h-input: 38px;
+  --gray-2: #dadada;
+  --h-input-1: 38px;
+  --h-input-2: 44px;
   --border-radius-1: 4px;
 }
 
@@ -28,7 +32,6 @@ body {
 }
 
 .header {
-  background-color: tomato;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -36,28 +39,11 @@ body {
   font-size: var(--size-icons-1);
   color: var(--gray-1);
 }
-.header__top {
-  background-color: lightblue;
-}
-.header__main {
-  background-color: lightseagreen;
-}
-.header__main__logo {
-  background-color: lightgreen;
-}
 .header__main__logo__img {
   width: 40px;
   margin-left: 20px;
 }
-.header__main__cart {
-  background-color: magenta;
-}
-.header__footer {
-  background-color: lime;
-}
-
 .my-account {
-  background-color: green;
   margin-right: 20px;
 }
 .my-account .bi-person-circle {
@@ -65,15 +51,14 @@ body {
 }
 
 .search {
-  background-color: orangered;
   border-radius: var(--border-radius-1);
   margin-top: 10px;
   margin-bottom: 10px;
   border: 1px solid var(--color-1);
 }
 .search__input {
+  color: var(--gray-1);
   border-radius: var(--border-radius-1);
-  border: 1px solid var(--color-1);
 }
 .search__button {
   background-color: var(--color-1);
@@ -128,6 +113,14 @@ body {
     margin-left: 0;
   }
   .header__footer {
-    background-color: lime;
+    height: var(--h-header-menu);
+    line-height: var(--h-header-menu);
+    border-top: 1px solid var(--gray-2);
+    border-bottom: 1px solid var(--gray-2);
+  }
+
+  .search__input {
+    font-size: var(--fsz-4);
+    height: var(--h-input-2);
   }
 }

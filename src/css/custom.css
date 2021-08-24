@@ -12475,17 +12475,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  background-color: var(--color-1);
-}
-
 a,
 a:hover {
   color: var(--gray-1);
   text-decoration: none;
 }
 
-button {
+button,
+input {
   border: none;
 }
 

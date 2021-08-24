@@ -1,5 +1,5 @@
 .header {
-  background-color: tomato;
+  // background-color: tomato;
   padding-top: 10px;
   padding-bottom: 10px;
   [class*="bi-"]::before {
@@ -7,28 +7,28 @@
       color: var(--gray-1);
   }
   &__top {
-      background-color: lightblue;
+      // background-color: lightblue;
   }
   &__main {
-      background-color: lightseagreen;
+      // background-color: lightseagreen;
       &__logo {
-          background-color: lightgreen;
+          // background-color: lightgreen;
            &__img {
                width: 40px;
                margin-left: 20px;
            }
       }
       &__cart {
-          background-color: magenta;
+          // background-color: magenta;
       }
   }
   &__footer {
-      background-color: lime;
+      // background-color: lime;
   }
 }
 
 .my-account {
-  background-color: green;
+  // background-color: green;
   margin-right: 20px;
   .bi-person-circle {
     margin-right: 10px;
@@ -36,14 +36,14 @@
 }
 
 .search {
-  background-color: orangered;
+  // background-color: orangered;
   border-radius: var(--border-radius-1);
   margin-top: 10px;
   margin-bottom: 10px;
   border: 1px solid var(--color-1);
   &__input {
+    color: var(--gray-1);
     border-radius: var(--border-radius-1);
-    border: 1px solid var(--color-1);
   }
   &__button {
     background-color: var(--color-1);

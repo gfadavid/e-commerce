@@ -4,9 +4,9 @@
 // OVERRIDES
 $primary: var(--color-1);
 
-body {
-    background-color: $primary;
-}
+// body {
+//     background-color: $primary;
+// }
 
 a,
 a:hover {
@@ -14,7 +14,8 @@ a:hover {
     text-decoration: none;
 }
 
-button {
+button,
+input {
     border: none;
 }
 
