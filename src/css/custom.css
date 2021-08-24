@@ -12479,7 +12479,8 @@ body {
   background-color: var(--color-1);
 }
 
-a {
+a,
+a:hover {
   color: var(--gray-1);
   text-decoration: none;
 }

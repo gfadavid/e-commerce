@@ -8,8 +8,11 @@
   --fsz-1: 14px;
   --fsz-2: 15px;
   --fsz-3: 13px;
+  --h-header: 36px;
   --color-1: #654bb9;
   --color-2: #006afd;
+  --color-3: #f1f1f1;
+  --color-4: #888888;
   --white: #ffffff;
   --black: #000000;
   --size-icons-1: 1.5rem;
@@ -75,7 +78,7 @@ body {
 .search__button {
   background-color: var(--color-1);
   color: var(--white);
-  width: 50px;
+  width: 45px;
 }
 .search__button .bi-search::before {
   color: var(--white);
@@ -91,4 +94,40 @@ body {
 }
 .geo__text__city {
   color: var(--color-2);
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 0;
+  }
+  .header__top {
+    background-color: var(--color-3);
+    height: var(--h-header);
+    font-size: var(--fsz-3);
+  }
+  .header__top__links {
+    margin-right: 20px;
+    font-weight: var(--regular);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__top__links svg {
+    color: var(--color-4);
+    margin-right: 5px;
+  }
+  .header__main__logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .header__main__logo__img {
+    width: 80px;
+    margin-left: 0;
+  }
+  .header__footer {
+    background-color: lime;
+  }
 }

@@ -1,0 +1,36 @@
+// BREAKPOINT: MEDIUM
+@media screen and (min-width: 768px) {
+
+  .header {
+    padding-top: 0;
+    &__top {
+      background-color: var(--color-3);
+      height: var(--h-header);
+      font-size: var(--fsz-3);
+      &__links {
+        margin-right: 20px;        
+        font-weight: var(--regular);
+        display: flex;
+        align-items: center;
+        svg {
+          color: var(--color-4);
+          margin-right: 5px;
+        }
+      }
+    }
+    &__main {
+      &__logo {
+          padding-top: 10px;
+          padding-bottom: 10px;
+             &__img {
+                 width: 80px;
+                 margin-left: 0;
+             }
+        }
+    }
+    &__footer {
+        background-color: lime;
+    }
+  }
+
+}
