@@ -1,6 +1,5 @@
 // CAROUSEL
-$('.top-offers').slick({
-  dots: true,
+$('.top-offers__carousel').slick({
   infinite: false,
   speed: 300,
   slidesToShow: 5,

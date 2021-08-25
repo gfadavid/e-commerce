@@ -1,0 +1,38 @@
+.top-offers {
+  background-color: tomato;
+  &__carousel {
+    background-color: lightblue;
+    .slick-slide {
+    }
+  }
+  &__title {
+    background-color: green;
+  }
+  &__item {
+    background-color: lightcoral;
+    display: block;
+    padding: 5px;
+    &__content__image {
+      background-color: mediumslateblue;
+      position: relative;
+      .shipping,
+      .dues,
+      .discount {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80px;
+      }
+      .dues {
+        left: auto;
+        right: 0;
+      }
+      .dues,
+      .discount {
+        top: auto;
+        bottom: 0;
+      }
+      
+    }
+  }
+}

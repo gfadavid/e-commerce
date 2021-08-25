@@ -110,6 +110,42 @@ main {
   margin-left: auto;
 }
 
+.top-offers {
+  background-color: tomato;
+}
+.top-offers__carousel {
+  background-color: lightblue;
+}
+.top-offers__title {
+  background-color: green;
+}
+.top-offers__item {
+  background-color: lightcoral;
+  display: block;
+  padding: 5px;
+}
+.top-offers__item__content__image {
+  background-color: mediumslateblue;
+  position: relative;
+}
+.top-offers__item__content__image .shipping,
+.top-offers__item__content__image .dues,
+.top-offers__item__content__image .discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+}
+.top-offers__item__content__image .dues {
+  left: auto;
+  right: 0;
+}
+.top-offers__item__content__image .dues,
+.top-offers__item__content__image .discount {
+  top: auto;
+  bottom: 0;
+}
+
 .category {
   padding-top: 30px;
   padding-bottom: 30px;
