@@ -19,8 +19,8 @@
       .dues,
       .discount {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 5px;
+        left: 5px;
         width: 80px;
       }
       .dues {
@@ -30,9 +30,42 @@
       .dues,
       .discount {
         top: auto;
-        bottom: 0;
+        bottom: 5px;
+      }
+
+      .discount {
+        width: 60px;
       }
       
+    }
+    &__title {
+      background-color: magenta;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    &__discount {
+      background-color: mediumaquamarine;
+      font-size: var(--fsz-5);
+      &__oldprice {
+        background-color: olive;
+        color: var(--color-4);
+        margin-right: 5px;
+        position: relative;
+        text-decoration: line-through;
+        &::before {
+          content: '$';
+          // font-size: ;
+        }
+      }
+      .tag__discount {
+        background-color: var(--color-1);
+        color: var(--white);
+        font-size: var(--fsz-2);
+        font-weight: var(--semi-bold);
+        text-transform: uppercase;
+        padding: 2px 3px;
+        border-radius: 3px;
+      }
     }
   }
 }

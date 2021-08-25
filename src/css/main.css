@@ -9,6 +9,7 @@
   --fsz-2: 15px;
   --fsz-3: 13px;
   --fsz-4: 16px;
+  --fsz-5: 18px;
   --h-header: 36px;
   --h-header-menu: 50px;
   --w-slider-control: 4rem;
@@ -132,8 +133,8 @@ main {
 .top-offers__item__content__image .dues,
 .top-offers__item__content__image .discount {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 5px;
+  left: 5px;
   width: 80px;
 }
 .top-offers__item__content__image .dues {
@@ -143,7 +144,38 @@ main {
 .top-offers__item__content__image .dues,
 .top-offers__item__content__image .discount {
   top: auto;
-  bottom: 0;
+  bottom: 5px;
+}
+.top-offers__item__content__image .discount {
+  width: 60px;
+}
+.top-offers__item__title {
+  background-color: magenta;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.top-offers__item__discount {
+  background-color: mediumaquamarine;
+  font-size: var(--fsz-5);
+}
+.top-offers__item__discount__oldprice {
+  background-color: olive;
+  color: var(--color-4);
+  margin-right: 5px;
+  position: relative;
+  text-decoration: line-through;
+}
+.top-offers__item__discount__oldprice::before {
+  content: "$";
+}
+.top-offers__item__discount .tag__discount {
+  background-color: var(--color-1);
+  color: var(--white);
+  font-size: var(--fsz-2);
+  font-weight: var(--semi-bold);
+  text-transform: uppercase;
+  padding: 2px 3px;
+  border-radius: 3px;
 }
 
 .category {
