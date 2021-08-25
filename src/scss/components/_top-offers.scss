@@ -1,19 +1,25 @@
 .top-offers {
-  background-color: tomato;
+  // background-color: tomato;
   &__carousel {
-    background-color: lightblue;
-    .slick-slide {
-    }
+    // background-color: lightblue;
   }
   &__title {
-    background-color: green;
+    // background-color: green;
   }
   &__item {
-    background-color: lightcoral;
+    background-color: var(--white);
+    border: 1px solid var(--gray-2);
     display: block;
-    padding: 5px;
+    margin: 5px;
+    padding: 10px 10px 25px;
+    position: relative;
+    left: -5px;
+    &:hover {
+      box-shadow: 5px 5px 5px var(--gray-3);
+      transition: all .5s;
+    }
     &__content__image {
-      background-color: mediumslateblue;
+      // background-color: mediumslateblue;
       position: relative;
       .shipping,
       .dues,
@@ -39,15 +45,16 @@
       
     }
     &__title {
-      background-color: magenta;
+      // background-color: magenta;
       margin-top: 10px;
       margin-bottom: 10px;
     }
     &__discount {
-      background-color: mediumaquamarine;
+      // background-color: mediumaquamarine;
       font-size: var(--fsz-5);
+      margin-bottom: 0;
       &__oldprice {
-        background-color: olive;
+        // background-color: olive;
         color: var(--color-4);
         margin-right: 5px;
         position: relative;
@@ -66,6 +73,22 @@
         padding: 2px 3px;
         border-radius: 3px;
       }
+    }
+    &__newprice {
+      font-size: var(--fsz-6);
+      color: var(--black);
+      font-weight: var(--semi-bold);
+      text-align: center;
+      &::before {
+        content: '$';
+        margin-right: 5px;
+      }
+    }
+    &__shipping,
+    &__withdraw {
+      color: var(--color-6);
+      text-align: center;
+      letter-spacing: -0.3px;
     }
   }
 }
