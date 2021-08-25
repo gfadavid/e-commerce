@@ -1,0 +1,17 @@
+.category {
+  // background-color: hotpink;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  &__image {
+    // background-color: green;
+  }
+  &__title {
+    // background-color: lightseagreen;
+    color: var(--gray-5);
+    font-size: var(--fsz-3);
+    font-weight: var(--medium);
+  }
+  &__more {
+    margin-top: 20px;
+  }
+}

@@ -18,6 +18,7 @@
   --color-2: #006afd;
   --color-3: #f1f1f1;
   --color-4: #888888;
+  --color-5: #440099;
   --white: #ffffff;
   --black: #000000;
   --size-icons-1: 1.5rem;
@@ -26,6 +27,7 @@
   --gray-2: #dadada;
   --gray-3: #c9c7c7;
   --gray-4: #807f80;
+  --gray-5: #484848;
   --h-input-1: 38px;
   --h-input-2: 44px;
   --border-radius-1: 4px;
@@ -99,6 +101,36 @@ main {
 }
 .geo__text__city {
   color: var(--color-2);
+}
+
+.slider {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.category {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.category__title {
+  color: var(--gray-5);
+  font-size: var(--fsz-3);
+  font-weight: var(--medium);
+}
+.category__more {
+  margin-top: 20px;
+}
+
+[class*=button--] {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid var(--color-5);
+  color: var(--color-5);
+  text-transform: uppercase;
+  font-size: var(--fsz-4);
+  font-weight: var(--medium);
 }
 
 @media screen and (min-width: 768px) {
