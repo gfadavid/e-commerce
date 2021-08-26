@@ -5,16 +5,20 @@
     padding-top: 0;
     padding-bottom: 0;
     &__top {
-      background-color: var(--color-3);
+      background-color: var(--color-1);
       height: var(--h-header);
       font-size: var(--fsz-3);
       &__links {
+        color: var(--white);
         margin-right: 20px;        
         font-weight: var(--regular);
         display: flex;
         align-items: center;
+        &:hover {
+          color: var(--white);
+      }
         svg {
-          color: var(--color-4);
+          color: var(--white);
           margin-right: 5px;
         }
       }

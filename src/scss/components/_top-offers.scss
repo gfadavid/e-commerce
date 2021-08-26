@@ -15,6 +15,7 @@
     position: relative;
     left: -5px;
     &:hover {
+      color: var(--gray-1);
       box-shadow: 5px 5px 5px var(--gray-3);
       transition: all .5s;
     }
@@ -86,7 +87,7 @@
     }
     &__shipping,
     &__withdraw {
-      color: var(--color-6);
+      color: var(--color-2);
       text-align: center;
       letter-spacing: -0.3px;
     }
