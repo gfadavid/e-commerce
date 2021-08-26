@@ -12475,6 +12475,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+ul,
+ol {
+  padding-left: 0;
+  list-style: none;
+}
+
 a,
 a:hover {
   color: var(--gray-1);

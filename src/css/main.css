@@ -55,6 +55,7 @@ main {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  padding-bottom: 50px;
 }
 
 .header {
@@ -105,6 +106,44 @@ main {
 }
 .geo__text__city {
   color: var(--color-2);
+}
+
+.footer {
+  background-color: var(--color-1);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.footer::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.footer__logo, .footer__column {
+  position: relative;
+  z-index: 10;
+}
+.footer__logo__image {
+  width: 125px;
+}
+.footer__column__list {
+  padding-top: 10px;
+}
+.footer__column__list__item {
+  line-height: 2;
+}
+.footer__column__list__link {
+  color: var(--white);
+  font-size: var(--fsz-1);
+  text-transform: capitalize;
+  font-weight: var(--light);
+}
+.footer__column__list__link:hover {
+  color: var(--white);
+  text-decoration: underline;
 }
 
 .slider {
@@ -215,6 +254,24 @@ main {
   text-transform: uppercase;
   font-size: var(--fsz-4);
   font-weight: var(--medium);
+}
+
+[class*=title--],
+[class*=subtitle--] {
+  margin: 0;
+  line-height: 1;
+  font-weight: var(--semi-bold);
+  color: var(--black);
+}
+
+.title--1 {
+  margin-bottom: 15px;
+}
+
+.subtitle--1 {
+  color: var(--white);
+  font-size: var(--fsz-5);
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {

@@ -4,6 +4,12 @@
 // OVERRIDES
 $primary: var(--color-1);
 
+ul,
+ol {
+    padding-left: 0;
+    list-style: none;
+}
+
 a,
 a:hover {
     color: var(--gray-1);

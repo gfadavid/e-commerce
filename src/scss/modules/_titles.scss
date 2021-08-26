@@ -1,0 +1,17 @@
+[class*="title--"],
+[class*="subtitle--"] {
+  margin: 0;
+  line-height: 1;
+  font-weight: var(--semi-bold);
+  color: var(--black);
+}
+
+.title--1 {
+  margin-bottom: 15px;
+}
+
+.subtitle--1 {
+  color: var(--white);
+  font-size: var(--fsz-5);
+  text-transform: uppercase;
+}
