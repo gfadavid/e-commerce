@@ -69,6 +69,13 @@
       font-size: var(--fsz-2);
       font-weight: var(--semi-bold);
     }
+    &__grid {
+      .top-offers__item {
+        left: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+      }
+    }
   }
 
 }

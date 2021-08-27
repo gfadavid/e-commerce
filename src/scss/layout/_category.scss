@@ -28,4 +28,13 @@
       border: none;
     }
   }
+
+  &__grid {
+    // background-color: hotpink;
+    .top-offers__item {
+      left: 0;
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
 }
