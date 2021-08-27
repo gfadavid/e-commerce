@@ -1,0 +1,29 @@
+.product {
+  // background-color: hotpink;
+  padding-top: 20px;
+  &__image {
+    background-color: var(--white);
+    border: 1px solid var(--gray-3);
+    .slick-prev {
+      left: 2.5px;
+    }
+    .slick-next {
+      // left: auto;
+      right: 2.5px;
+    }
+    .slider-for {
+      img {
+        margin-right: auto;
+        margin-left: auto;
+        // border-bottom: 1px solid var(--gray-3);
+      }
+    }
+    .slider-nav {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      img {
+        width: 50px;
+      }
+    }
+  }
+}

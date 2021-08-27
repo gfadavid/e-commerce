@@ -77,4 +77,22 @@
     }
   }
 
+  .product {
+    &__image {
+      .slick-prev {
+        left: 25px;
+      }
+      .slick-next {
+        right: 25px;
+      }
+      .slider-nav {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        img {
+          width: 100px;
+        }
+      }
+    }
+  }
+
 }
