@@ -17,12 +17,10 @@
 }
 
 .title--featured {
-  background-image: linear-gradient(-90deg,
-                                    var(--color-2),
-                                    var(--color-1));
+  background-color: var(--color-2);
   color: var(--white);
   font-size: var(--fsz-7);
   display: inline-block;
   padding: 10px 16px;
-  margin-left: 20px;
+  margin-top: 20px;
 }
