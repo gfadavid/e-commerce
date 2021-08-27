@@ -489,10 +489,10 @@ main {
   }
 
   .product__image .slick-prev {
-    left: 25px;
+    left: 60px;
   }
   .product__image .slick-next {
-    right: 25px;
+    right: 60px;
   }
   .product__image .slider-nav {
     padding-top: 20px;
