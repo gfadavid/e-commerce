@@ -58,3 +58,14 @@ p {
         }
     }
 }
+
+.pagination {
+    margin-bottom: 0;
+    .page-link {
+        color: var(--color-1);
+        margin: 10px 10px 0;
+        font-size: var(--fsz-5);
+        border-radius: 5px;
+        border-color: var(--gray-3);
+    }
+}

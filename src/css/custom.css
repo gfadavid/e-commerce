@@ -12527,3 +12527,14 @@ p:last-child {
 .carousel-indicators [data-bs-target].active {
   background-color: var(--gray-4);
 }
+
+.pagination {
+  margin-bottom: 0;
+}
+.pagination .page-link {
+  color: var(--color-1);
+  margin: 10px 10px 0;
+  font-size: var(--fsz-5);
+  border-radius: 5px;
+  border-color: var(--gray-3);
+}
