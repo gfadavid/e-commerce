@@ -317,7 +317,7 @@ main {
   color: var(--white);
   font-size: var(--fsz-7);
   display: inline-block;
-  padding: 16px;
+  padding: 10px 16px;
   margin-left: 20px;
 }
 
