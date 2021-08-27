@@ -32,3 +32,9 @@
     background-color: var(--color-2);
   }
 }
+
+.subtitle--2 {
+  @extend .subtitle--1;
+  color: var(--black);
+  font-size: var(--fsz-8);
+}

@@ -29,6 +29,42 @@
     }
   }
 
+  &__aside {
+    background-color: hotpink;
+    margin-top: 6px;
+    // font-size: var(--fsz-1);
+    .breadcrumb {
+      &-item {
+        a {
+          &:hover {
+            color: var(--color-2);
+          }
+        }
+      }
+    }
+    &__title {
+      background-color: greenyellow;
+    }
+    &__results {
+      background-color: lightseagreen;
+      margin-top: 15px;
+      &__number {
+        background-color: lightskyblue;
+        font-weight: var(--semi-bold);
+      }
+    }
+    &__search {
+      background-color: mediumpurple;
+      &__select {
+        background-color: transparent;
+        border: none;
+        font-size: var(--fsz-4);
+        font-weight: var(--semi-bold);
+        margin-left: 5px;
+      }
+    }
+  }
+
   &__grid {
     // background-color: hotpink;
     .top-offers__item {
