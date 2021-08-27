@@ -38,3 +38,9 @@
   color: var(--black);
   font-size: var(--fsz-8);
 }
+
+.subtitle--3 {
+  @extend .subtitle--2;
+  font-size: var(--fsz-4);
+  font-weight: var(--bold);
+}
