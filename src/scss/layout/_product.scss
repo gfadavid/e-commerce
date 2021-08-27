@@ -80,4 +80,11 @@
       }
     }
   }
+  &__description__text {
+    margin-top: 50px;
+    &__item {
+      text-align: left;
+      font-size: var(--fsz-4);
+    }
+  }
 }
