@@ -2,7 +2,8 @@
   // background-color: hotpink;
   padding-top: 20px;
   &__image,
-  &__description {
+  &__description,
+  &__features {
     background-color: var(--white);
     border: 1px solid var(--gray-3);
     height: 100%;
@@ -28,7 +29,8 @@
       }
     }
   }
-  &__description {
+  &__description,
+  &__features {
     padding: 20px;
     // &__title {
     //   background-color: turquoise;
@@ -63,6 +65,19 @@
     &__item {
       margin-right: 10px;
       margin-left: 10px;
+    }
+  }
+  &__features {
+    margin-top: 20px;
+    &__item {
+      margin-top: 20px;
+      padding-top: 10px;
+      border-top: 1px solid var(--gray-3);
+      font-size: var(--fsz-5);
+      &__title {
+        color: var(--black);
+        font-weight: var(--semi-bold);
+      }
     }
   }
 }

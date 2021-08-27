@@ -45,3 +45,10 @@
   font-size: var(--fsz-4);
   font-weight: var(--bold);
 }
+
+.subtitle--4 {
+  @extend .subtitle--2;
+  font-size: var(--fsz-6);
+  font-weight: var(--bold);
+  text-transform: none;
+}
