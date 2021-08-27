@@ -234,6 +234,16 @@ main {
 .product__description__button {
   margin-top: 30;
 }
+.product__carousel {
+  margin-top: 20px;
+}
+.product .top-offers__carousel {
+  margin-top: 20px;
+}
+.product .top-offers__item {
+  margin-right: 10px;
+  margin-left: 10px;
+}
 
 .footer {
   background-color: var(--color-2);
@@ -410,6 +420,7 @@ main {
 
 .title--1 {
   margin-bottom: 15px;
+  font-size: var(--fsz-8);
 }
 
 .subtitle--1, .subtitle--2, .subtitle--3 {

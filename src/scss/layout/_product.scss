@@ -51,5 +51,18 @@
     &__button {
       margin-top: 30;
     }
+
+  }
+  &__carousel {
+    margin-top: 20px;
+  }
+  .top-offers {
+    &__carousel {
+      margin-top: 20px;
+    }
+    &__item {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
   }
 }
