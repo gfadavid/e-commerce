@@ -189,28 +189,29 @@ main {
 }
 
 .product {
-  padding-top: 20px;
+  padding-top: 10px;
 }
-.product__image, .product__description, .product__features {
+.product .bg {
   background-color: var(--white);
-  border: 1px solid var(--gray-3);
+}
+.product__image {
   height: 100%;
 }
-.product__image .slick-prev, .product__description .slick-prev, .product__features .slick-prev {
+.product__image .slick-prev {
   left: 2.5px;
 }
-.product__image .slick-next, .product__description .slick-next, .product__features .slick-next {
+.product__image .slick-next {
   right: 2.5px;
 }
-.product__image .slider-for img, .product__description .slider-for img, .product__features .slider-for img {
+.product__image .slider-for img {
   margin-right: auto;
   margin-left: auto;
 }
-.product__image .slider-nav, .product__description .slider-nav, .product__features .slider-nav {
+.product__image .slider-nav {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.product__image .slider-nav img, .product__description .slider-nav img, .product__features .slider-nav img {
+.product__image .slider-nav img {
   width: 50px;
 }
 .product__description, .product__features {
@@ -236,13 +237,14 @@ main {
 }
 .product__carousel {
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 .product .top-offers__carousel {
   margin-top: 20px;
 }
 .product .top-offers__item {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 .product__features {
   margin-top: 20px;
