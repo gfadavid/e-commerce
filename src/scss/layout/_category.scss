@@ -14,4 +14,19 @@
   &__more {
     margin-top: 20px;
   }
+
+  &__featured__carousel {
+    background-color: var((--white));
+    border: 1px solid var(--gray-2);
+    margin-top: 20px;
+    padding-bottom: 20px;
+    .top-offers__carousel {
+      margin-top: 20px;
+    }
+    .top-offers__item {
+      margin: 0;
+      border: none;
+    }
+
+  }
 }

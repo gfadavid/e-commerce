@@ -15,3 +15,14 @@
   font-size: var(--fsz-5);
   text-transform: uppercase;
 }
+
+.title--featured {
+  background-image: linear-gradient(-90deg,
+                                    var(--color-2),
+                                    var(--color-1));
+  color: var(--white);
+  font-size: var(--fsz-7);
+  display: inline-block;
+  padding: 16px;
+  margin-left: 20px;
+}

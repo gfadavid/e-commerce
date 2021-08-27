@@ -85,6 +85,10 @@
         margin-right: 5px;
       }
     }
+
+    &__shipping {
+      font-weight: var(--semi-bold);
+    }
     &__shipping,
     &__withdraw {
       color: var(--color-2);
