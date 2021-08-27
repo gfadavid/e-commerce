@@ -1,4 +1,5 @@
 [class*="button--"] {
+  background-color: transparent;
   height: 50px;
   line-height: 50px;
   text-align: center;
@@ -7,4 +8,10 @@
   text-transform: uppercase;
   font-size: var(--fsz-4);
   font-weight: var(--medium);
+}
+
+.button--2 {
+  width: var(--w-button-1);
+  background-color: var(--color-1);
+  color: var(--white);
 }

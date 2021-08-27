@@ -1,9 +1,11 @@
 .product {
   // background-color: hotpink;
   padding-top: 20px;
-  &__image {
+  &__image,
+  &__description {
     background-color: var(--white);
     border: 1px solid var(--gray-3);
+    height: 100%;
     .slick-prev {
       left: 2.5px;
     }
@@ -24,6 +26,30 @@
       img {
         width: 50px;
       }
+    }
+  }
+  &__description {
+    padding: 20px;
+    // &__title {
+    //   background-color: turquoise;
+    // }
+    .top-offers__item__discount {
+      font-size: var(--fsz-8);
+      .tag__discount {
+        font-size: var(--fsz-5);
+        margin-left: 5px;
+      }
+    }
+    &__price {
+      color: var(--black);
+      font-weight: var(--semi-bold);
+      font-size: var(--fsz-7);
+      &::before {
+        content: '$';
+      }
+    }
+    &__button {
+      margin-top: 30;
     }
   }
 }
