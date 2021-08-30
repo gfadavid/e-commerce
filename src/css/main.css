@@ -393,6 +393,7 @@ main {
 .top-offers__item__title {
   margin-top: 10px;
   margin-bottom: 10px;
+  min-height: 42px;
 }
 .top-offers__item__discount {
   font-size: var(--fsz-5);
