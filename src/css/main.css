@@ -513,6 +513,21 @@ main {
 .modal__header__buttons {
   width: 225px;
 }
+.modal [class*=category__] {
+  font-size: var(--fsz-1);
+}
+
+.filter {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.filter__text {
+  font-size: var(--fsz-4);
+  font-weight: var(--bold);
+  color: var(--color-1);
+  text-transform: uppercase;
+  margin-left: 15px;
+}
 
 [class*=button--] {
   background-color: transparent;
