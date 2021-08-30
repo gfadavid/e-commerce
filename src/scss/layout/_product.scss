@@ -35,8 +35,14 @@
       // background-color: skyblue;
       padding-top: 20px;
       padding-bottom: 20px;
+      height: 125px;
+      overflow: hidden;
       img {
-        width: 50px;
+        &:hover {
+          cursor: pointer;
+          opacity: .65;
+          transition: all .3s;
+        }
       }
     }
   }
