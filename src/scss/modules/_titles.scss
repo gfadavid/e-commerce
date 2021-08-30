@@ -11,6 +11,11 @@
   font-size: var(--fsz-8);
 }
 
+.title--2 {
+  @extend .title--1;
+  font-size: var(--fsz-1);
+}
+
 .subtitle--1 {
   color: var(--white);
   font-size: var(--fsz-5);

@@ -1,0 +1,50 @@
+.menu {
+  background-color: hotpink;
+  margin-bottom: 0;
+  display: flex;
+  &__item {
+    background-color: lightblue;
+    margin-right: 15px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:nth-child(even) {
+      background-color: limegreen;
+    }
+  }
+  .submenu {
+    // background-color: indigo;
+    &__item {
+      background-color: violet;
+      line-height: 2.5;
+      &:nth-child(even) {
+        background-color: yellowgreen;
+      }
+    }
+    &__container {
+      background-color: red;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      left: 0;
+      z-index: 10;
+      width: 100%;
+      &__center {
+        background-color: lightseagreen;
+        max-width: 1158px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      &__item {
+        background-color: slateblue;
+        width: calc(100% / 5);
+        &:nth-child(even) {
+          background-color: lightblue;
+        }
+      }
+    }
+  }
+}
