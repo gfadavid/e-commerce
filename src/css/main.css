@@ -441,55 +441,55 @@ main {
 }
 
 .menu {
-  background-color: hotpink;
   margin-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 .menu__item {
-  background-color: lightblue;
   margin-right: 15px;
 }
 .menu__item:last-child {
   margin-right: 0;
 }
-.menu__item:nth-child(even) {
-  background-color: limegreen;
+.menu__item:hover .submenu,
+.menu__item:hover .submenu__container {
+  opacity: 1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.menu .submenu {
+  opacity: 0;
 }
 .menu .submenu__item {
-  background-color: violet;
-  line-height: 2.5;
+  line-height: 2.25;
 }
-.menu .submenu__item:nth-child(even) {
-  background-color: yellowgreen;
+.menu .submenu__link:hover {
+  text-decoration: underline;
 }
 .menu .submenu__container {
-  background-color: red;
+  opacity: 0;
+  background-color: var(--white);
   position: absolute;
   top: 100%;
   right: 0;
   left: 0;
   z-index: 10;
   width: 100%;
+  padding-bottom: 20px;
 }
 .menu .submenu__container__center {
-  background-color: lightseagreen;
   max-width: 1158px;
   margin-right: auto;
   margin-left: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .menu .submenu__container__item {
-  background-color: slateblue;
   width: calc(100% / 5);
-}
-.menu .submenu__container__item:nth-child(even) {
-  background-color: lightblue;
 }
 
 [class*=button--] {
@@ -525,6 +525,7 @@ main {
 
 .title--2 {
   font-size: var(--fsz-1);
+  margin-bottom: 5px;
 }
 
 .subtitle--1, .subtitle--2, .subtitle--4, .subtitle--5, .subtitle--3 {

@@ -13,6 +13,9 @@ ol {
 a {
     color: var(--gray-1);
     text-decoration: none;
+    &:hover {
+        color: var(--gray-1);
+    }
 }
 
 figure {
@@ -65,7 +68,7 @@ p {
         color: var(--color-1);
         margin: 10px 10px 0;
         font-size: var(--fsz-5);
-        border-radius: 5px;
+        border-radius: 5px;a {}
         border-color: var(--gray-3);
     }
 }

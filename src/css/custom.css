@@ -12485,6 +12485,9 @@ a {
   color: var(--gray-1);
   text-decoration: none;
 }
+a:hover {
+  color: var(--gray-1);
+}
 
 figure {
   margin-bottom: 0;

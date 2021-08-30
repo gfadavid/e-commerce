@@ -1,49 +1,55 @@
 .menu {
-  background-color: hotpink;
+  // background-color: hotpink;
   margin-bottom: 0;
   display: flex;
   &__item {
-    background-color: lightblue;
+    // background-color: lightblue;
     margin-right: 15px;
     &:last-child {
       margin-right: 0;
     }
-    &:nth-child(even) {
-      background-color: limegreen;
+    &:hover {
+      .submenu,
+      .submenu__container {
+        opacity: 1;
+        transition: all .5s;
+      }
     }
   }
   .submenu {
     // background-color: indigo;
+    opacity: 0;
     &__item {
-      background-color: violet;
-      line-height: 2.5;
-      &:nth-child(even) {
-        background-color: yellowgreen;
+      // background-color: violet;
+      line-height: 2.25;
+    }
+    &__link {
+      &:hover {
+        text-decoration: underline;
       }
     }
     &__container {
-      background-color: red;
+      opacity: 0;
+      background-color: var(--white);
       position: absolute;
       top: 100%;
       right: 0;
       left: 0;
       z-index: 10;
       width: 100%;
+      padding-bottom: 20px;
       &__center {
-        background-color: lightseagreen;
+        // background-color: lightseagreen;
         max-width: 1158px;
         margin-right: auto;
         margin-left: auto;
         display: flex;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        flex-wrap: wrap;
       }
       &__item {
-        background-color: slateblue;
+        // background-color: slateblue;
+        // padding-top: 20px;
         width: calc(100% / 5);
-        &:nth-child(even) {
-          background-color: lightblue;
-        }
       }
     }
   }
