@@ -492,6 +492,24 @@ main {
   width: calc(100% / 5);
 }
 
+.offcanvas-body {
+  position: relative;
+}
+.offcanvas-body .btn-close {
+  position: absolute;
+  top: 28px;
+  right: 15px;
+  font-size: var(--fsz-5);
+  z-index: 10;
+}
+
+.subcategory {
+  margin-bottom: 0;
+}
+.subcategory__link {
+  font-size: var(--fsz-4);
+}
+
 [class*=button--] {
   background-color: transparent;
   height: 50px;

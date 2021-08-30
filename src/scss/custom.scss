@@ -72,3 +72,16 @@ p {
         border-color: var(--gray-3);
     }
 }
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: var(--gray-1);
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}

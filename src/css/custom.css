@@ -12541,3 +12541,16 @@ p:last-child {
   border-radius: 5px;
   border-color: var(--gray-3);
 }
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: var(--gray-1);
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}

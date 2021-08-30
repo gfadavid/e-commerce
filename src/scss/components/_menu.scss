@@ -54,3 +54,22 @@
     }
   }
 }
+
+// VERSIÓN MÓVIL
+.offcanvas-body {
+  position: relative;
+  .btn-close {
+    position: absolute;
+    top: 28px;
+    right: 15px;
+    font-size: var(--fsz-5);
+    z-index: 10;
+  }
+}
+
+.subcategory {
+  margin-bottom: 0;
+  &__link {
+    font-size: var(--fsz-4);
+  }
+}
