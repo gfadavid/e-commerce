@@ -6,11 +6,11 @@
     padding-bottom: 0;
     &__top {
       background-color: var(--color-1);
-      height: var(--h-header);
+      
       font-size: var(--fsz-3);
       &__links {
         color: var(--white);
-        margin-right: 20px;        
+        margin-right: 10px;        
         font-weight: var(--regular);
         display: flex;
         align-items: center;
@@ -95,4 +95,15 @@
     }
   }
 
+}
+
+@media screen and (min-width: 992px) {
+ .header {
+   &__top {
+    height: var(--h-header);
+    &__links {
+      margin-right: 20px;
+    }
+   }
+ } 
 }

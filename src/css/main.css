@@ -69,6 +69,9 @@ main {
   font-size: var(--size-icons-1);
   color: var(--gray-1);
 }
+.header__top .social {
+  background-color: hotpink;
+}
 .header__main__logo__img {
   width: 40px;
   margin-left: 20px;
@@ -452,13 +455,50 @@ main {
 .menu__item:last-child {
   margin-right: 0;
 }
+.menu__item:hover > a {
+  -webkit-transition: color 300ms;
+  transition: color 300ms;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.menu__item:hover > a:before {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  top: 30px;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--color-1);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition: 300ms ease-out;
+  transition: 300ms ease-out;
+}
+.menu__item:hover > a:hover:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
 .menu__item:hover .submenu,
 .menu__item:hover .submenu__container {
+  display: block;
   opacity: 1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 .menu .submenu {
+  display: none;
   opacity: 0;
 }
 .menu .submenu__item {
@@ -468,6 +508,7 @@ main {
   text-decoration: underline;
 }
 .menu .submenu__container {
+  display: none;
   opacity: 0;
   background-color: var(--white);
   position: absolute;
@@ -621,12 +662,11 @@ main {
   }
   .header__top {
     background-color: var(--color-1);
-    height: var(--h-header);
     font-size: var(--fsz-3);
   }
   .header__top__links {
     color: var(--white);
-    margin-right: 20px;
+    margin-right: 10px;
     font-weight: var(--regular);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -698,5 +738,13 @@ main {
   }
   .product__image .slider-nav img {
     width: 100px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .header__top {
+    height: var(--h-header);
+  }
+  .header__top__links {
+    margin-right: 20px;
   }
 }
