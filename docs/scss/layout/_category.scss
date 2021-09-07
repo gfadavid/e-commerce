@@ -112,3 +112,39 @@
     }
   }
 }
+
+.range__price {
+  // background-color: saddlebrown;
+  display: flex;
+  flex-basis: 100%;
+  margin-top: 5px;
+  span {
+    display: block;
+    margin-right: 6px;
+    margin-left: 6px; 
+  }
+  &__item,
+  &__button {
+    display: block;
+    width: 90px;
+    height: 35px;
+    border: 1px solid var(--gray-3);
+    position: relative;
+    border-radius: 4px;
+  }
+  &__button {
+    background-color: var(--color-1);
+    width: 40px;
+    border: none;
+    margin-left: 12px;
+    position: relative;
+    svg {
+      position: absolute;
+      top: 5px;
+      left: 9px;
+      width: 20px;
+      height: 24px;
+      fill: var(--white);
+    }
+  }
+}

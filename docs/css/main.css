@@ -195,6 +195,43 @@ main {
   margin-left: 0;
 }
 
+.range__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  margin-top: 5px;
+}
+.range__price span {
+  display: block;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+.range__price__item, .range__price__button {
+  display: block;
+  width: 90px;
+  height: 35px;
+  border: 1px solid var(--gray-3);
+  position: relative;
+  border-radius: 4px;
+}
+.range__price__button {
+  background-color: var(--color-1);
+  width: 40px;
+  border: none;
+  margin-left: 12px;
+  position: relative;
+}
+.range__price__button svg {
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  width: 20px;
+  height: 24px;
+  fill: var(--white);
+}
+
 .product {
   padding-top: 10px;
 }
